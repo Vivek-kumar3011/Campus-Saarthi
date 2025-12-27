@@ -1,20 +1,17 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore"; 
-import { getAuth } from "firebase/auth"; // 1. Auth import 
+import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDHEXLFEVzYRkz2pvcVf-e-hb1i-p6Hlbs",
-  authDomain: "campus-saarthi.firebaseapp.com",
-  projectId: "campus-saarthi",
-  storageBucket: "campus-saarthi.firebasestorage.app",
-  messagingSenderId: "960496072240",
-  appId: "1:960496072240:web:a1b467a6f61a0856389ff5",
-  measurementId: "G-LYPYQENLVX"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-// 2. export both services
 export const db = getFirestore(app);
-export const auth = getAuth(app); // 3.this line export important
+export const auth = getAuth(app);
