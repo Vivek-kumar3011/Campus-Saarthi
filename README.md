@@ -1,16 +1,59 @@
-# React + Vite
+# 🏫 Campus Saarthi | The Ultimate IIIT Kalyani Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Campus Saarthi is a dedicated AI-powered ecosystem designed exclusively for the students and faculty of **IIIT Kalyani**. It provides a seamless interface to access campus-related information, manage daily schedules, and stay updated with institutional activities.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Access
+- **Web Version:** https://campus-saarthi.web.app
+- **Android App:** https://bit.ly/3Ldnz9g
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛡️ Exclusive Authentication
+To maintain data privacy and security, access is strictly restricted to the institutional domain:
+* **Authorization:** Only logins via `@iiitkalyani.ac.in` email addresses are permitted.
+* **Powered by:** Firebase Authentication (Google Sign-In).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Top 10 Campus-Relevant Features
+🍴 Mess Menu: Live updates for daily meals and mess timings.
+
+📅 Class Schedule: A personalized weekly timetable for academic management.
+
+🔔 Notices & Events: Real-time push notifications for campus announcements and upcoming events.
+
+📖 Academic Hub: Centralized repository for Previous Year Questions (PYQs), lecture notes, and study materials.
+
+💼 Opportunities: A curated feed for the latest internship alerts and placement drive news.
+
+📞 Campus Directory: Quick-access directory for faculty cabin locations and emergency contacts.
+
+📋 Task Manager: A built-in organizer for students to track assignments and deadlines.
+
+🔍 Lost & Found: A digital portal to report missing items or claim recovered belongings within the campus.
+
+🛍️ Buy & Sell: An internal student-to-student marketplace for campus essentials (books, cycles, electronics).
+
+💬 AI Saarthi: A custom-trained assistant capable of answering complex campus-related queries without relying on external LLM APIs for core data.
+
+🛠️ Technical Stack
+Frontend: React.js + Vite (optimized for high-speed production builds).
+
+Backend & Hosting: Firebase Hosting, Firestore, and Firebase Authentication.
+
+Security: Sanitized Git history with environment variables (.env) for infrastructure protection.
+
+UI/UX: Responsive card-based design with a mobile-first floating navigation bar.
+
+🚀 Installation & Local Development
+Clone the Repository: git clone https://github.com/your-username/campus-saarthi.git
+Install Dependencies: npm install
+Run Locally: npm run dev
+Build for Production: npm run build
+📄 Deployment Instruction
+To deploy the latest build to Firebase Hosting: .\node_modules\.bin\firebase deploy --only hosting
+
+
+Developed by Vivek Empowering the IIIT Kalyani community through technology.
