@@ -39,6 +39,7 @@ To maintain data privacy and security, access is strictly restricted to the inst
 💬 AI Saarthi: A custom-trained assistant capable of answering complex campus-related queries without relying on external LLM APIs for core data.
 
 🛠️ Technical Stack
+
 Frontend: React.js + Vite (optimized for high-speed production builds).
 
 Backend & Hosting: Firebase Hosting, Firestore, and Firebase Authentication.
@@ -48,11 +49,13 @@ Security: Sanitized Git history with environment variables (.env) for infrastruc
 UI/UX: Responsive card-based design with a mobile-first floating navigation bar.
 
 🚀 Installation & Local Development
+
 Clone the Repository: git clone https://github.com/your-username/campus-saarthi.git
 Install Dependencies: npm install
 Run Locally: npm run dev
 Build for Production: npm run build
 📄 Deployment Instruction
+
 To deploy the latest build to Firebase Hosting: .\node_modules\.bin\firebase deploy --only hosting
 
 
