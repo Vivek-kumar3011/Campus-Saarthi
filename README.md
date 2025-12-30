@@ -50,10 +50,10 @@ UI/UX: Responsive card-based design with a mobile-first floating navigation bar.
 
 🚀 Installation & Local Development
 
-Clone the Repository: git clone https://github.com/your-username/campus-saarthi.git
-Install Dependencies: npm install
-Run Locally: npm run dev
-Build for Production: npm run build
+Clone the Repository: git clone https://github.com/your-username/campus-saarthi.git.
+Install Dependencies: npm install.
+Run Locally: npm run dev.
+Build for Production: npm run build.
 📄 Deployment Instruction
 
 To deploy the latest build to Firebase Hosting: .\node_modules\.bin\firebase deploy --only hosting
